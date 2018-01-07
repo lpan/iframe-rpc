@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "A reliable RPC framework to work around the Same-Origin Policy ",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "parcel example/index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lpan/iframe-rpc.git"
@@ -15,6 +17,10 @@
   },
   "homepage": "https://github.com/lpan/iframe-rpc#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.4.1"
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
